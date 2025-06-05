@@ -1,5 +1,3 @@
-# Basic
+# jrd.ms
 
-The most minimal example of how to use Blade.
-
-**Demo:** https://blade-example-basic.vercel.app
+Personal site built using [Blade](https://github.com/ronin-co/blade) and deployed to [Vercel](https;//jrd-ms.vercel.app).
