@@ -24,13 +24,13 @@ const Page = () => {
 				</div>
 
 				<div className="flex flex-col items-start justify-between self-end w-full">
-					<div className="py-[14px] px-3">
+					<div className="p-3">
 						<Signature href={LINKS.X} />
 					</div>
 
 					<span className="h-px w-full bg-neutral-200 dark:bg-neutral-800" />
 
-					<div className="flex flex-row items-center justify-between self-end w-full gap-4 pt-2.5 pb-1 sm:pb-2.5 pl-1 pr-1 sm:pr-2.5">
+					<div className="flex flex-row items-center justify-between self-end w-full gap-4 pt-3 pb-1 sm:pb-2.5 pl-1 pr-1 sm:pr-2.5">
 						<a
 							href={LINKS.GITHUB}
 							target="_blank"
