@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+html,
+body {
+	@apply bg-white dark:bg-black text-black dark:text-white h-full w-full;
+}
+
+body {
+	@apply flex flex-col items-center justify-center h-full w-full p-6;
+}
