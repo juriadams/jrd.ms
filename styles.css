@@ -2,7 +2,7 @@
 
 html,
 body {
-	@apply bg-white dark:bg-black text-black dark:text-white h-full w-full;
+	@apply bg-white dark:bg-black text-black dark:text-white h-full w-full overscroll-none;
 }
 
 body {

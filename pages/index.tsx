@@ -14,7 +14,6 @@ const Page = () => {
 	useMetadata({
 		title: "@juriadams – jrd.ms",
 		description: "Juri Adams, CTO, Product & Engineering at RONIN.",
-		bodyClassName: "overscroll-none",
 	});
 
 	return (
