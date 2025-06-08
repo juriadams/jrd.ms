@@ -14,12 +14,13 @@ const Page = () => {
 	useMetadata({
 		title: "@juriadams – jrd.ms",
 		description: "Juri Adams, CTO, Product & Engineering at RONIN.",
+		bodyClassName: "overscroll-none",
 	});
 
 	return (
-		<div className="w-full max-w-sm sm:max-w-2xl rounded-4xl border border-neutral-200 dark:border-neutral-800 p-4 shadow-2xl shadow-neutral-300/20 dark:shadow-neutral-900/40">
-			<div className="flex flex-col sm:flex-row gap-6 sm:gap-4">
-				<div className="shrink-0">
+		<div className="w-full max-w-sm sm:max-w-2xl h-full sm:h-auto rounded-4xl border border-neutral-200 dark:border-neutral-800 p-4 shadow-2xl shadow-neutral-300/20 dark:shadow-neutral-900/40">
+			<div className="h-full flex flex-col sm:flex-row gap-6 sm:gap-4 justify-between">
+				<div className="sm:shrink-0">
 					<Portrait />
 				</div>
 
